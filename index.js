@@ -7,7 +7,7 @@ const createDB = require("./lib/createDB");
 const closeDB = require("./lib/closeDB");
 const createLog = require("./lib/createLog");
 const closeLog = require("./lib/closeLog");
-const sequelizeModel = require("./lib/sequelizeModel");
+const SequelizeModel = require("./lib/sequelizeModel");
 const UserModel = require("./lib/userModel");
 
 module.exports = {
@@ -15,6 +15,6 @@ module.exports = {
   closeDB,
   createLog,
   closeLog,
-  sequelizeModel,
+  SequelizeModel,
   UserModel,
 };
