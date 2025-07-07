@@ -1,6 +1,6 @@
 {
   "name": "zyx-sequelize",
-  "version": "0.20.1",
+  "version": "0.20.2",
   "description": "Implments classes and functions to work with Sequelize databases",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "pg": "^8.16.3",
     "sequelize": "^6.37.7",
     "winston": "^3.17.0",
-    "zyx-base": "^0.20.3",
+    "zyx-base": "^0.20.8",
     "zyx-schema": "^0.20.5",
     "zyx-system": "^0.20.3"
   },
